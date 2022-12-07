@@ -1,0 +1,16 @@
+Zad. 1. [4+4p] Wykorzystując mechanizm dopasowania wzorca napisać w OCaml
+funkcję typu float llist -> float llist, która przekształca wejściową listę
+leniwą do postaci listy leniwej, w której każdy element zwielokrotniony
+jest o kolejne swoje potęgi do n-tej potęgi włącznie,
+gdzie n jest pozycją elementu w liście wejściowej. Zadanie wykonać następnie w Scala.
+Wszystkie operacje należy wykonywać bezpośrednio na listach leniwych.
+Listę zwykłą można jedynie wykorzystać do utworzenia na jej podstawie listy leniwej
+lub ewentualnie do wyświetlenia listy leniwej.
+
+Zad. 2. [2p] Zaimplementować słownik zawierający wyrazy, na które składa się liczba całkowita
+(wartość słowa) i częstość jej wystąpienia. Słownik ma mieć postać uporządkowaną względem wartości słowa.
+Napisać w OCaml funkcję typu int -> 'a -> slowa list
+(gdzie slowa jest nazwą typu opisującego wyraz)  usuwającą wyraz ze słownika
+(w przypadku istnienia wyrazu w słowniku należy tylko zmniejszyć jego częstość).
+
+(int, int)
